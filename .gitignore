@@ -1,0 +1,15 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# OS-specific files
+.DS_Store
+
+# Build and cache directories (if using Vite)
+dist/
+.vite/
+
+# Environment files (if any)
+.env
+.env.local
+.env.*.local
