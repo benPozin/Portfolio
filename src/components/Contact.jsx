@@ -32,7 +32,7 @@ const Contact = () => {
             ></textarea>
             
           <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_next" value="http://localhost:5173/#contact"/> 
+          {/* <input type="hidden" name="_next" value="http://localhost:5173/#contact"/> */}
 
           <button type="submit" className="px-6 py-3 bg-gray-600 hover:bg-gray-500 rounded-md">
             Send
