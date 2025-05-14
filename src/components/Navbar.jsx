@@ -1,8 +1,9 @@
 import {Link} from "react-router-dom";
+import Weather from "./Weather";
 
 const Navbar = () => {
     return (
-      <nav className="flex justify-between items-center p-6 bg-black-900">
+      <nav className="flex justify-between items-start p-3 bg-black-900">
         <h1 className="text-2xl font-bold">Ben's Portfolio</h1>
         <ul className="flex space-x-8">
           <li><Link to="/#" className="text-xl font-bold hover:text-gray-400">Home</Link></li>

@@ -1,9 +1,11 @@
 const Contact = () => {
     return (
       <section id="contact" className="py-20 text-center mt-32">
+
+      <div className="max-w-md mx-auto bg-gray-700 bg-opacity-80 p-8 rounded-xl shadow-lg">
         <h2 className="text-4xl font-bold">Contact Me</h2>
         <form 
-          action="https://formsubmit.co/test"
+          action="https://formsubmit.co/benjamin.pozin@gmail.com"
           method = "POST"
           className="mt-10 space-y-4 max-w-md mx-auto"
         >
@@ -38,6 +40,7 @@ const Contact = () => {
             Send
           </button>
         </form>
+        </div>
       </section>
     );
   };
